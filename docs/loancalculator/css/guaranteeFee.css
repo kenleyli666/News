@@ -1,0 +1,207 @@
+.guaranteeFee{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.guaranteeFee .topic-ctrl{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background: #007bff;;
+    width: 40%;
+    padding: 10px;
+}
+.guaranteeFee .topic-ctrl h2{
+    display: flex;
+    align-items: center;
+    font-size: 3vmin !important;
+    left: 30%;
+    width: 80%;
+    margin: 10px 0;
+}
+.fa-solid {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    font-size: 3vmin;  
+    color: #fff; 
+    cursor: pointer;
+}
+
+.fa-chevron-down {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.fa-chevron-up {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.guaranteeFee .form {
+    width: 40%;
+    background: #007bff;
+    padding: 0 10px 10px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+hr{
+    background: #ced4da;
+    height: 0.5px;
+    width: 100%;
+    margin: 3px;
+}
+h2::before{
+    color: #fb5004;
+    border-right: 2px solid #fb5004;
+}
+.holder {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.brawl {
+    display: flex;
+    flex-direction: column;
+}
+.cabin {
+    width: 100%;
+    padding: 1px 0;
+}
+.textfield {
+    width: 100%;
+    padding: 10px ;
+    border-radius: 4px;
+    border: none;
+}
+.label-head{
+    padding-bottom: 3px;
+    font-size: 2.5vmin;
+    font-weight: 600;
+}
+.progress{
+    width: 100%;
+    margin: 5px auto;
+}
+#myRange {
+    appearance: none;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    height: 5px;
+    transition: background 450ms ease-in;
+}
+#myRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid #000;
+}
+.selectfield select {
+    width: 100%;
+    padding: 10px ;
+    border-radius: 4px;
+    border: none;
+    font-size: 2.5vmin;
+    font-weight: bold;
+}
+.calcu{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+.btnCtrl{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.btnCtrl .btns{
+    padding: 3px 0;
+}
+.btnCtrl .btns input{
+    font-size: 2.5vmin;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 5px 50px;
+    font-weight: 600;
+}
+#submitBtn{
+    background: red;
+    color: #fff;
+}
+#resetBtn{
+    color: red;
+    background: #e5e5e5;
+}
+.fee-amount {
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    color: #000;
+    text-align: center;
+    font-size: 3vmin;
+}
+.fee-amount .textarea{
+    display: flex;
+    justify-content: center;
+}
+.fee-amount textarea{
+    width: 100%;
+    height: 60px;
+    font-size: 2.5vmin;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.Amount-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.currency-symbol {
+    position: absolute;
+    left: 10px;
+    color: black;
+    font-size: 2.5vmin;
+    font-weight: 600;
+}
+#amount {
+    padding-left: 70px;  /* Adjust this value as needed */
+    font-size: 2.5vmin;
+    font-weight: 600;
+}
+.Apr-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.AprPercent{
+    position: absolute;
+    /* left: 45px; */
+    right: 10px;
+    color: black;
+    font-size: 2.5vmin;
+    font-weight: 800;
+}
+#FacIntRate{
+    padding-left: 10px;  /* Adjust this value as needed */
+    font-size: 2.5vmin;
+    font-weight: 600;
+}
